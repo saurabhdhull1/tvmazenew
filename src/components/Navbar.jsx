@@ -71,12 +71,12 @@ export default class Navbar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn btn-success" onClick={this.theme}>
+                <Link className="btn btn-danger" onClick={this.theme}>
                   Theme
                 </Link>
               </li>
             </ul>
-            <Link className="btn btn-outline-success" to="/search">
+            <Link className="btn btn-danger" to="/search">
               Go to Search
             </Link>
           </div>

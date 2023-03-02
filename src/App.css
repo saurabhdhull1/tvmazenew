@@ -22,31 +22,15 @@
 
 /* navbar */
 .navbar{
-    background-color: #e8003f;
+    padding: 0 !important;
 }
-.navbar .btn{
-    margin-right: 10px;
+.navbar *{
+    background-color: #ffc6d5;
+    padding: 5px;
 }
-.navbar .container-fluid{
-    padding: 0;
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
 }
-.navbar-brand{
-    display: none;
-}
-
-li{
-    background-color: #e8003f;
-}
-a{
-    color: #e8003f;
-}
-.nav-link{
-    background-color: #e8003f;
-    color: rgb(0, 136, 255);
-}
-.navbar-collapse{
-    background-color: #e8003f;
-}
-
 
 
